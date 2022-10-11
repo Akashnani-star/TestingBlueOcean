@@ -9,6 +9,6 @@ pipeline {
 
   }
   environment {
-    swaggerChecks = 'ENABLE'
+    swaggerChecks = 'fw'
   }
 }
