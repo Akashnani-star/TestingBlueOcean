@@ -1,14 +1,7 @@
-pipeline {
-  agent any
-  stages {
-    stage('Testing Env') {
-      steps {
-        sh 'echo $swaggerChecks'
-      }
-    }
+@Library("swaggerCheck") _
 
-  }
-  environment {
-    swaggerChecks = 'fw'
-  }
+Akash {
+  
+  akashnani = "akash"
+  
 }
